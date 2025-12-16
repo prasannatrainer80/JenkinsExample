@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        
+
         stage('Checkout') {
 	   steps {
 	     git 'https://github.com/prasannatrainer80/JenkinsExample.git'
@@ -27,5 +27,5 @@ pipeline {
 }
 
     }
-	
+
 }
